@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>HTML ASSIGNMENT</title>
 </head>
 <body>
-   <Header>
-    <a href="/index.html">NETFLIX</a>    
-    <nav>
-        <ul>
+   <header class="main_header"> 
+    <nav class="main_nav">
+        <ul class="main_nav_left">
+            <li>
+                <a href="/index.html">
+                <img class ="logo" src="Resources/Img/logo.png" alt="NETFLIX"> 
+                </a>   
+            </li>
             <li>
                 <a href="/Pages/home.html">Home</a>
             </li>
@@ -29,69 +34,97 @@
                 <a href="/Pages/languages.html">Browse by Languages</a>
             </li>
         </ul>
-    </nav>
-    <button>search</button>
-    <nav>
-        <Ul>
+        <ul class ="main_nav_right">
+            <li>
+                <button>search</button>
+            </li>
             <li>
                 <a href="/Pages/KIDS.html">Kids</a>
             </li>
             <li>
                 <a href="/Pages/DVD.html">DVD</a>
             </li>
-        </Ul>
-    </nav>   
-    <button>Notification</button>
-    <button>My Profile</button>    
-   </Header>
+            <li>
+                <button>Notification</button>
+            </li>
+            <li>
+                <button>My Profile</button>  
+            </li>
+        </ul>
+    </nav>
+  
+   </header>
 
-   <div class="MainContent">
-    <img src="https://dummyimage.com/1080x720/e622e6/fff" alt="">
-   </div>
-   <div class="categories">
-    <ul>
-        <li>
-            <div class="sub-category">
-                <H2>Popular on Netflix</H2>
-                <Ul>
-                    <Li>
-                        <img src="https://dummyimage.com/250x200/e622e6/fff" alt="">
-                    </Li>
-                    <Li>
-                        <img src="https://dummyimage.com/250x200/e622e6/fff" alt="">
-                    </Li>
-                    <Li>
-                        <img src="https://dummyimage.com/250x200/e622e6/fff" alt="">
-                    </Li>
-                    <Li>
-                        <img src="https://dummyimage.com/250x200/e622e6/fff" alt="">
-                    </Li>
-                </Ul>
+   <main>
+    <div class="wallpaper-container">
+        <img class="wallpaper" src="/Resources/Img/wallpaper.jpg" alt="">
+    </div>
+       
+       <div>
+        <ul  class="categories">
+            <li>
+                <div class="sub-category">
+                    <h2>Popular on Netflix</h2>
+                    <ul class="movie-list">
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img2.jpg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img3.jpg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img4.jpeg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img2.jpg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img3.jpg" alt="">
+                        </div>
+                    </ul>
                 </div>
-        </li>
-        <li>
-            <div class="sub-category">
-                <H2>Action</H2>
-                <Ul>
-                    <Li>
-                        <img src="https://dummyimage.com/250x200/e622e6/fff" alt="">
-                    </Li>
-                    <Li>
-                        <img src="https://dummyimage.com/250x200/e622e6/fff" alt="">
-                    </Li>
-                    <Li>
-                        <img src="https://dummyimage.com/250x200/e622e6/fff" alt="">
-                    </Li>
-                    <Li>
-                        <img src="https://dummyimage.com/250x200/e622e6/fff" alt="">
-                    </Li>
-                </Ul>
+            </li>
+            <li>
+                <div class="sub-category">
+                    <h2>Action</h2>
+                    <ul class="movie-list">
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img2.jpg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img3.jpg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img4.jpeg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img2.jpg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img3.jpg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img2.jpg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img3.jpg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img4.jpeg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img2.jpg" alt="">
+                        </div>
+                        <div class ="sub-category-img">
+                            <img class="movie-img" src="/Resources/Img/img3.jpg" alt="">
+                        </div>
+                    </ul>
                 </div>
-        </li>
-
-    </ul>
-
-   </div>
-
-</body>
+            </li>
+    
+        </ul>
+    
+       </div>    
+   </main>
+   </body>
 </html>
